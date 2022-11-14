@@ -1,0 +1,20 @@
+module ExecuteStage(
+	clockIn,
+	resetIn,
+	
+	startIn,
+	instructionIn,
+	addressIn,
+	
+	operandsIn,
+	
+	operandsOut,
+	
+	resultsOut,
+	
+	instructionOut,
+	addressOut,
+	readyOut
+);
+
+endmodule

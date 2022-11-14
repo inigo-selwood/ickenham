@@ -1,0 +1,6 @@
+module RegisterFile(
+	clockIn,
+	resetIn,
+	
+	loadInd
+);

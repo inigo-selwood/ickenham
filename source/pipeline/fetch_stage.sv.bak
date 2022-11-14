@@ -1,0 +1,33 @@
+module FetchStage(
+	clockIn,
+	resetIn,
+	
+	writeAddressIn,
+	writeLatchIn,
+	
+	sourceAddressOut,
+	sourceLoadOut,
+	sourceValueIn,
+	sourceReadyIn,
+	
+	instructionOut,
+	addressOut,
+	readyOut,
+);
+
+	input clockIn;
+	input resetIn;
+	
+	input [31:0] writeAddressIn;
+	input 		 writeLatchIn;
+
+	output logic [31:0] sourceAddressOut;
+	output logic        sourceLoadOut;
+	input 	    [31:0] sourceValueIn;
+	input					  sourceReadyIn;
+	
+	output logic [31:0] instructionOut;
+	output logic [31:0] addressOut;
+	output logic		  readyOut;
+	
+endmodule
